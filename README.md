@@ -106,14 +106,35 @@ True Healthy      21     45
 
 ```text
 RHD-PCG-BiLSTM/
+│
 ├── RHD_PCG_BiLSTM_Classification.ipynb
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-├── data/
-│   └── training_rhd/       # dataset not committed
-└── models/                  # optional saved model
+│
+└──results/
+   ├── training_validation_loss.png
+   ├── training_validation_accuracy.png
+   ├── threshold_analysis.png
+   └── confusion_matrix.png
+
 ```
+
+## Results
+
+### Training Performance
+
+![Training and Validation Loss](results/training_validation_loss.png)
+
+![Training and Validation Accuracy](results/training_validation_accuracy.png)
+
+### Classification Threshold
+
+![Threshold Analysis](results/threshold_analysis.png)
+
+### Test Confusion Matrix
+
+![Confusion Matrix](results/confusion_matrix.png)
 
 ## Disclaimer
 
