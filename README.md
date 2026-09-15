@@ -111,12 +111,10 @@ RHD-PCG-BiLSTM/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-│
-└──results/
-   ├── training_validation_loss.png
-   ├── training_validation_accuracy.png
-   ├── threshold_analysis.png
-   └── confusion_matrix.png
+├── training_validation_loss.png
+├── training_validation_accuracy.png
+├── threshold_analysis.png
+└── confusion_matrix.png
 
 ```
 
@@ -124,17 +122,17 @@ RHD-PCG-BiLSTM/
 
 ### Training Performance
 
-![Training and Validation Loss](results/training_validation_loss.png)
+![Training and Validation Loss](Training_validation_loss.png)
 
-![Training and Validation Accuracy](results/training_validation_accuracy.png)
+![Training and Validation Accuracy](Training_validation_accuracy.png)
 
 ### Classification Threshold
 
-![Threshold Analysis](results/threshold_analysis.png)
+![Threshold Analysis](Threshold_analysis.png)
 
 ### Test Confusion Matrix
 
-![Confusion Matrix](results/confusion_matrix.png)
+![Confusion Matrix](Confusion_matrix.png)
 
 ## Disclaimer
 
